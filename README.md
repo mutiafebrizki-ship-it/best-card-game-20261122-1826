@@ -1,8 +1,8 @@
 # 🔥 Ember Duel
 
-[![make.fun](https://make.fun/badge.svg?owner=mutiafebrizki-ship-it&repo=best-card-game-20261122-1826)](https://make.fun/bounty/best-card-game-20261122-1826)
-[![make.fun entry](https://make.fun/badge-entry.svg?owner=mutiafebrizki-ship-it&repo=best-card-game-20261122-1826)](https://make.fun/bounty/best-card-game-20261122-1826)
-[![make.fun game](https://make.fun/badge-game.svg?owner=mutiafebrizki-ship-it&repo=best-card-game-20261122-1826)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/mutiafebrizki-ship-it/best-card-game-20261122-1826/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/mutiafebrizki-ship-it/best-card-game-20261122-1826/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
 
 An original card duel game for the make.fun bounty
 [Make the best card game](https://make.fun/bounty/best-card-game-20261122-1826).
@@ -44,3 +44,5 @@ request is made; the whole game is static files under `game/`.
 - `main.ts` — the make.fun entry program (copies `game/` + `screenshots/` and
   writes `dossier.json`)
 - `screenshots/` — 4 real renders of the game: title, gameplay, win, lose
+
+Referral code: yngr0441 — https://make.fun/r/yngr0441
