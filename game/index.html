@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember Duel — a card duel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <div class="brand">🔥 EMBER DUEL</div>
+    <div class="scoreboard">
+      <span id="roundLabel">Round 1</span>
+      <span id="scoreLabel">You 0 — 0 Pyra</span>
+    </div>
+  </header>
+
+  <section id="table">
+    <div class="side" id="foeSide">
+      <div class="fighter">
+        <div class="avatar foe">🤖</div>
+        <div class="fighterInfo">
+          <div class="name">PYRA <span class="tag">AI RIVAL</span></div>
+          <div class="hpbar"><div class="hpfill foe" id="foeHpFill"></div><span id="foeHpText">30 / 30</span></div>
+        </div>
+      </div>
+      <div class="hand" id="foeHand"></div>
+    </div>
+
+    <div id="arena">
+      <div class="arenaSlot" id="foeSlot"><div class="slotHint">Pyra plays here</div></div>
+      <div id="versus">⚔️</div>
+      <div class="arenaSlot" id="youSlot"><div class="slotHint">Your card lands here</div></div>
+      <div id="roundBanner"></div>
+    </div>
+
+    <div class="side" id="youSide">
+      <div class="hand" id="youHand"></div>
+      <div class="fighter">
+        <div class="avatar you">🧑‍🚀</div>
+        <div class="fighterInfo">
+          <div class="name">YOU <span class="tag">CHALLENGER</span></div>
+          <div class="hpbar"><div class="hpfill you" id="youHpFill"></div><span id="youHpText">30 / 30</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside id="logPanel">
+    <div class="logTitle">DUEL LOG</div>
+    <div id="log"></div>
+    <div id="hint">Keys 1–5 play a card · R restarts · Click a card to play it</div>
+  </aside>
+
+  <div id="overlay" class="hidden">
+    <div id="overlayCard">
+      <div id="overlayTitle"></div>
+      <div id="overlayBody"></div>
+      <button id="overlayBtn"></button>
+      <div id="overlayFoot"></div>
+    </div>
+  </div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
